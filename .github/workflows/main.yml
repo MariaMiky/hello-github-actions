@@ -1,8 +1,8 @@
-	jobs:
-	  build:
+	jobs:Secretaries and administrators play a supportive role in organisations where they are employed to undertake a variety of administrative tasks
+	  build:An administrative role can sometimes be a way into a profession, particularly in the media or marketing
 	    name: Secretary
 	    runs-on: ubuntu-latest
-	    steps:
+	    steps: answering calls, taking messages and handling correspondence, maintaining diaries and arranging appointments, typing, preparing and collating reports
 	      - uses: actions/checkout@v1
 	      - uses: ./action-a
 	        with:
