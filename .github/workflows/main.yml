@@ -1,8 +1,8 @@
-	jobs: Secretaries
-	  build: An administrative role can sometimes be a way into a profession, particularly in the media or marketing
-	    name: Secretary
+	jobs:
+	  build:
+	    name: Hello world action
 	    runs-on: ubuntu-latest
-	    steps: answering calls, taking messages and handling correspondence, maintaining diaries and arranging appointments, typing, preparing and collating reports
+	    steps:
 	      - uses: actions/checkout@v1
 	      - uses: ./action-a
 	        with:
